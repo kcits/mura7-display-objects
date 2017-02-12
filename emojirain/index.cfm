@@ -10,12 +10,12 @@
 </cfoutput>
 
 <script>
-  Mura(function(m) { 
-    m.loader() 
+  Mura(function(m) {
+    m.loader()
       .load(
         m.themepath + '/display_objects/bower_components/emoji-rain/emoji-rain.html',
         m.themepath + '/display_objects/bower_components/webcomponentsjs/webcomponents-lite.min.js'
-      ); 
+      );
   });
 
   var rainmaker = document.getElementById('rainmaker');
